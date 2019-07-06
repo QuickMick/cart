@@ -1,0 +1,50 @@
+{
+  "name": "jsmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuickMick/jsmp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuickMick/jsmp/issues"
+  },
+  "homepage": "https://github.com/QuickMick/jsmp#readme",
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "express": "^4.16.4",
+    "objectid": "^3.2.1",
+    "pino": "^5.12.2",
+    "random-color": "^1.0.1",
+    "sillyname": "^0.1.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "stats.js": "^0.17.0",
+    "three-orbit-controls": "^82.1.0",
+    "three.js": "^0.77.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-watch": "^4.3.1",
+    "svelte": "^3.0.0"
+  }
+}
